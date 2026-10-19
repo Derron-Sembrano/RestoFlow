@@ -55,7 +55,7 @@ namespace RestaurantManagementSystem
         private void btnInventory_Click(object sender, EventArgs e)
         {
             ShowView(new InventoryView());
-            lblHeaderTitle.Text = "inventory";
+            lblHeaderTitle.Text = "Inventory";
             lbldesc.Text = "Track ingredients and restocking needs.";
         }
 
